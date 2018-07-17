@@ -2,6 +2,9 @@
 
 body {
     background-image: url(../img/oboi-fon-temnii.1366x768.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     font-size: 18px;
     font-family: "Arial", sans-serif;
