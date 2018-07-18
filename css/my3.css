@@ -2,26 +2,18 @@
 
 body, html {
    height: 100%;
-    margin: 0;
     width: 100%;
+    margin: 0;
     font-size: 18px;
     font-family: "Arial", sans-serif;
     color:dimgrey;
     background-color: white;
-
-}
-
-section {
-     
-    margin: 0;
-    padding: 0;
-    height: 100%;
     background-image: url(../img/oboi-fon-temnii.1366x768.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    
-   
+
 }
+
 
 div {
     padding: 5% 10%;
