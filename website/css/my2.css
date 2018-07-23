@@ -1,6 +1,6 @@
 body,html { 
 min-width: 1230px;    
-font-family: "Myriad Pro";
+font-family: 'Roboto', sans-serif;
 font-weight: bold;    
 }
 
@@ -41,8 +41,8 @@ margin-right: 20px;
 display: flex;
 justify-content:space-between; 
 align-items: center;   
-font-family: "Carton slab"; 
-font-weight:normal;
+font-family: 'Arvo', serif; 
+font-weight: bold;
 text-transform: uppercase;
 font-size: 31.94px;
 color:#3a494c;  
@@ -82,7 +82,7 @@ align-items: center;
 h1{
 display: block;
 width: 566px;    
-font-family: "Carton slab"; 
+font-family: 'Arvo', serif; 
 font-weight:normal;
 text-transform: uppercase;
 text-align: center;    
@@ -152,6 +152,7 @@ color: #323232;
 
 p{
 display: block;
+width: 100%;    
 font-size: 19px;
 font-weight: normal;
 margin-top: 20px;
@@ -229,6 +230,7 @@ color:#a2a3a3;
 
 .portfolio-img{
  display: flex;
+width: 100%;
 justify-content:space-between; 
 flex-wrap: wrap;  
 margin-top: 70px;    
@@ -252,13 +254,13 @@ margin-top:  30px;
 /*Information*/
 
 .information{
-min-height: 950px;
+height: 950px;
 background-color: #f0f1f0;    
 }
 
 .information-cont{
- width: 1230px;    
-min-height: 950px; 
+width: 1230px;    
+height: 100%; 
 margin: auto;    
 display: flex;
 flex-direction: column;    
@@ -364,7 +366,7 @@ background-position: center;
 }
 
 .meet-card h3{
- font-family: "Carton slab"; 
+ font-family: 'Arvo', serif; 
 font-weight:normal;
 text-transform: uppercase;
 font-size: 37px;
@@ -381,6 +383,7 @@ margin-top: 10px;
 }
 
 .meet-text{
+width: 100%;    
 font-size: 22px;
 font-weight:normal;
 color: #909090;
@@ -542,7 +545,7 @@ input,
 textarea {
 color: #a3a3a3; 
 font-size: 29px;  
-font-family: "Myriad Pro";
+font-family: 'Roboto', sans-serif;
 font-weight: 600;   
 padding-left: 35px;   
 box-sizing: border-box;     
