@@ -1,0 +1,395 @@
+body {
+    width: 100%;
+    font-size: 14.18px;
+    line-height: 20.53px;
+    font-family: "Muller";
+    font-weight: lighter;
+    color: #404040;
+    background-color: white;
+}
+
+.main_screen {
+    min-height: 768px;
+    }
+
+.mein_menu {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgb(17, 37, 55);
+    width: 1165px;
+    height: 595px;
+    top:70px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    z-index: 1;
+    display: none;   
+}
+
+.mein_menu_on {
+    display: flex; 
+}
+
+ul {
+    padding-left: 0;
+}
+
+.mein_menu li  {
+    color: white;
+    list-style:none;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;   
+}
+
+.mein_menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.mein_menu li a:hover {
+    color: rgb(248, 162, 90);
+}
+
+.main_screen_cont {
+    width: 1163px;
+    margin: 0 auto;
+    height: 770px;
+}
+
+.main_screen_bg {
+  background-color: rgb(17, 37, 55);
+  opacity: 0.969;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 49.9%;
+  height: 770px;
+ 
+}
+
+.logo {
+ position: absolute;
+ right: -65px;  
+ top: 22px;    
+}
+
+.main_screen_slider {
+    width: 100%;
+    min-height: 595px;
+    background-image: url(../img/slides_sprite.jpg);
+    background-position:-0.1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 2s ease;
+}
+
+.main_screen_slider_min {
+    display: flex;
+    float:  right;
+}
+
+.main_screen_slider_min div {
+    margin-left: 12px;
+    margin-top: 45px;
+    background-color: #cdd3cf;
+    width: 26px;
+    height: 3px;
+    cursor: pointer;
+}
+
+.main_screen_slider_min .active {
+    background-color: rgb(26, 68, 74);  
+}
+
+ .main_screen_phone {
+    box-sizing: border-box;
+    width: 100%; 
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Muller";
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #252525;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 36px;
+}
+
+.main_screen_phone img {
+    margin-right: 7px; 
+}
+
+.main_screen_bg_cont {
+    width: 581px; 
+    height: 710px;
+    float:right; 
+    box-sizing: border-box;
+    color: white;
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger { 
+    position: relative;
+    margin-bottom: 8px;
+    height: 2px;
+    width: 26px;
+    background-color: white;
+    transition: all 1s ease; 
+}
+
+.burger_cont {
+    position: relative;
+    cursor: pointer;
+    margin-left: 2px;
+    transition: all 1s ease;
+}
+ 
+.burger1 {
+    transform: rotate(90deg) translateX(10px);
+    background-color: red;    
+}
+
+.burger3 {
+    transform: rotate(90deg) translateX(-10px);
+    background-color: yellow;
+}
+
+.burger_cont_go {
+    transform: rotate(45deg);   
+}
+
+.burger_logo_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_white {
+   display: none; 
+}
+
+.main_screen_bg_center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 96px;
+    margin-bottom: 114px;
+}
+
+button{
+  background-color: transparent;
+  box-shadow: 4.5px 7.794px 20.88px 8.12px rgba(0, 1, 6, 0.06);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-size: 14.45px;
+  font-weight: 800;  
+  line-height: 30px; 
+  letter-spacing: 2px; 
+  color:white;       
+  width: 277px;
+  height: 56px;    
+  display: flex;
+  align-items:center;
+  justify-content: center;      
+  border:1px solid white; 
+  margin-top: 22px; 
+  transition: all 1s ease;    
+    
+}
+
+button:hover {
+  background-color: rgb(248, 162, 90);  
+}
+
+button img {
+  margin-left: 15px;
+}
+
+button span {
+  font-size: 25px;
+}
+
+.arrow {    
+  margin: 0 auto 140px auto;
+  display: none;
+}
+
+h1 {
+  font-size: 60.85px;
+  line-height: 59.32px;
+  font-family: "Playfair Display";
+  font-weight: bold; 
+  margin:0;
+  margin-bottom: 18px;
+  margin-top: 151px;
+}
+
+h2 {
+  font-size: 14.18px;
+  line-height: 20.53px;  
+}
+
+.social {
+  display: flex; 
+}
+
+.social a {
+  margin-right: 35px;
+}
+
+.social a:nth-child(2) {
+  margin-top: 2px;
+}
+
+
+
+/***** features *****/
+
+.features {
+    background-color: #fdfaf3;
+}
+
+.features_item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+/*    border: 1px solid red;*/
+    box-sizing: border-box;
+}
+
+.features_cont {
+    width: 1173px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.features_item span {
+    font-family: "Playfair Display";
+    font-size: 85.43px;
+    /*line-height: 85.43px; */
+    letter-spacing: 2px;
+    color: #fea052;
+    opacity: 0.5;
+    
+}
+
+h3 {
+    font-family: "Raleway";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #1a292f;
+    margin-top:46px;
+    margin-bottom: 0;
+}
+
+.features_item p {
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 17px;
+    letter-spacing: 1px;
+    color: #838383;
+    width: 90%;
+   
+}
+
+.m130 {
+    margin-top: 130px;
+}
+
+.m343 {
+    margin-top: 343px;
+}
+
+
+@media screen and (max-width: 1173px){
+    .main_screen_cont, .main_screen_bg_cont, .mein_menu { width: 100%; }
+    .main_screen_phone, .main_screen_slider_min {padding-right: 10px;}
+    .social, .burger_cont { margin-left: 10px;}
+    /***** features *****/
+    .features_cont { width: 100%; padding: 0 10px; box-sizing: border-box;}
+    
+}
+
+@media screen and (max-width: 950px){
+    .main_screen_bg { width: 60%;} 
+}
+
+@media screen and (max-width: 768px){
+    .main_screen { min-height: 1112px;}
+    .mein_menu { top:120px; height: 550px;}
+    .main_screen_bg { width: 100%; height: 1112px; opacity: 0.878;} 
+    .main_screen_phone, .main_screen_slider_min, .logo, .social, button img {display: none;}
+    .main_screen_bg_cont {float: none; margin: 61px auto 0 auto; padding: 0 27px; height: 1051px;}
+    .main_screen_slider {height: 1112px; background-image: url(../img/image1.jpg); background-position: 75%; background-size: cover; }
+    .logo_white{display: block;}
+    .burger {  border-radius: 3px; height: 5px; width: 64px; margin-bottom: 13px;}       
+    .main_screen_bg_center{ margin:0; margin-bottom: 60px; align-items: center;}
+     h1 { font-size: 100px;line-height: 100px; text-align: center; margin-top: 106px; margin-bottom: 45px;}
+     h2 { font-size: 26px; line-height: normal; text-align: center;}
+    .arrow { display:block;}
+    .arrow img { transform: rotate(90deg); width: 110px; height: 30px; }
+    
+     button { width: 439px; height: 110px; font-size:30px; margin-top:50px; letter-spacing: 3px; }
+    .main_screen br {display: none;}
+    .burger1 {transform: rotate(90deg) translateX(18px);}
+    .burger3 {transform: rotate(90deg) translateX(-18px);}
+     /***** features *****/
+    .features_cont { flex-wrap: wrap;padding: 0 38px;}
+    .features_item {width: 50%; }
+    .m130 { margin-top: 97px;}
+    .m343 {margin-top: 262px;}
+    .m0 { margin-top: -4px;}
+    .m180 { margin-top: 170px;}
+    h3 { font-size: 24px;}
+    .features_item p { font-size: 18px;}
+
+}
+
+@media screen and (max-width: 620px) {
+    h1 { font-size: 70px; line-height: normal;}
+    button {width: 380px; height: 60px; font-size: 20px;}
+    /***** features *****/
+     .features_item {width: 100%; }
+    .features_cont div.features_item { margin-top: 25px;}
+     .features_cont { padding: 42px 15px; }
+    .features_item p { width: 100%; }
+    
+}
+
+@media screen and (max-width: 440px) {
+    .mein_menu { top:50px;  height: 558px;}
+    .main_screen_bg_cont { margin: 26px auto 0 auto;     padding: 0 16px; }
+     h1 { font-size: 60px; line-height: 60px; margin: 0; }
+     h2 { margin-bottom: 28px;  }
+    .logo_white img { height: 23px;  }
+     button {width: 300px; height: 60px; font-size: 20px; margin: 0;}
+    .burger { border-radius: 1px; height: 3px; width: 33px; margin-bottom: 8px; }
+    .burger1 {transform: rotate(90deg) translateX(11px);}
+    .burger3 {transform: rotate(90deg) translateX(-11px);}
+    .main_screen_slider, .main_screen_bg {height: 609px;}
+    .main_screen_cont { height: 608px;}
+    .main_screen_bg_cont { height: 582px;  }
+    .main_screen {  min-height: 608px;  }
+    .arrow { margin: 0px auto 80px auto;}
+    .arrow img { height: 18px; width: 80px; }
+    
+    
+}
+
+@media screen and (max-width: 368px) {
+    h1 { font-size: 48px; line-height: 48px; margin-top: 100px; margin-bottom: 15px;}
+    h2 { font-size: 18px; }
+    button {width: 223px; height: 54px; font-size: 14px;}
+}
+
+
+
+
