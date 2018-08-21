@@ -118,15 +118,15 @@ ul.menu_dark_gl {
   position: absolute;
   box-sizing: border-box;
   height: 250px;
-  width: 153px;
+  width: 88px;
   padding: 0 18px;
   background-color:  #212121;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;  
-  top: 43px;
-  left: -15px;
+  top: 44px;
+  left: -16px;
   display: none;  
   z-index: 10;
 }
